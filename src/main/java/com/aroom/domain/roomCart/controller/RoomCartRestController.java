@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/v1/carts")
+@RequestMapping("/v1/roomCarts")
 public class RoomCartRestController {
 
     private final RoomCartService roomCartService;
